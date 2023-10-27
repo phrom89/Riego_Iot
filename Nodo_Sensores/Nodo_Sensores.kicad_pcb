@@ -2077,10 +2077,15 @@
       (net 29 "/SW") (pinfunction "1") (pintype "passive") (tstamp 4f885066-0f83-467d-9c2c-7db608c97240))
     (pad "2" smd rect (at 4.95 0 180) (size 2.9 5.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 30 "+5V") (pinfunction "2") (pintype "passive") (tstamp 176c5002-164b-4235-afe2-fdfd1c5c4402))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_12x12mm_H8mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_12x12mm_H8mm.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/74477001_Download_WE-PD_1280_STP_rev1.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -2159,7 +2164,7 @@
     (pad "8" smd roundrect (at 2.6375 -1.905 180) (size 1.625 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 6 "+3.3V") (pinfunction "V+") (pintype "power_in") (tstamp 33dfb39c-5f84-4e85-a2ca-7f469ba4ca72))
     (pad "9" smd rect (at 0 0 180) (size 2.514 3.2) (layers "F.Cu" "F.Mask") (tstamp c06ee750-4fb2-44b5-a18f-aeb2f9f6b605))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.514x3.2mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
